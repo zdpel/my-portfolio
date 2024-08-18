@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.f855e6bc.css",
-    "main.js": "/my-portfolio/static/js/main.364ef77c.js",
+    "main.css": "/my-portfolio/static/css/main.511412e6.css",
+    "main.js": "/my-portfolio/static/js/main.25f2f5e6.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
-    "static/media/logo.svg": "/my-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/discord-floss.mp4": "/my-portfolio/static/media/discord-floss.771587090d8d1304ff7e.mp4",
+    "static/media/pingpong.png": "/my-portfolio/static/media/pingpong.412a5b874176d7c8e6c4.png",
+    "static/media/myweb.mp4": "/my-portfolio/static/media/myweb.13047742ff7f3609dd53.mp4",
+    "static/media/android.mp4": "/my-portfolio/static/media/android.63ddbd1ec2c23d036569.mp4",
+    "static/media/compTheory.png": "/my-portfolio/static/media/compTheory.524322a26027a6c45c20.png",
+    "static/media/mentor.mp4": "/my-portfolio/static/media/mentor.0dddb524c6d0821cda15.mp4",
+    "static/media/storybook.jpg": "/my-portfolio/static/media/storybook.956e1002f71a1ae42cb1.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.f855e6bc.css.map": "/my-portfolio/static/css/main.f855e6bc.css.map",
-    "main.364ef77c.js.map": "/my-portfolio/static/js/main.364ef77c.js.map",
+    "main.511412e6.css.map": "/my-portfolio/static/css/main.511412e6.css.map",
+    "main.25f2f5e6.js.map": "/my-portfolio/static/js/main.25f2f5e6.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.364ef77c.js"
+    "static/css/main.511412e6.css",
+    "static/js/main.25f2f5e6.js"
   ]
 }
