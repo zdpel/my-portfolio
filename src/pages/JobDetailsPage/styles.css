@@ -1,0 +1,7 @@
+.detail-page {
+    width: 100vw;
+    height: 100vh;
+    padding: 25px;
+    background: linear-gradient(to right, rgb(10, 6, 15), rgb(11, 5, 15), rgb(8, 3, 12));
+    color: rgb(209, 205, 205);
+}

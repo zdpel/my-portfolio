@@ -1,0 +1,42 @@
+.career-timeline {
+    z-index: 2;
+    position: relative;
+    padding-top: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.career-timeline-title {
+    color: rgb(119, 117, 117);
+    text-align: center;
+}
+
+.career-timeline-content {
+    position: relative;
+    width: 80%;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.career-timeline-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 4px;
+    background: rgb(75, 68, 68);
+    transform: translateX(-50%);
+    background: repeating-linear-gradient(
+        to bottom,
+        rgb(78, 71, 71),
+        transparent 10px,
+        transparent 20px
+    );
+    transform: translateX(-50%);
+}

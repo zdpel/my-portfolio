@@ -1,0 +1,22 @@
+/* Define light theme variables */
+:root {
+    --background-color: linear-gradient( #f4f2f5, #f5f3f3, #e9e5e5);
+    --text-color: #000000;
+    --pop-text-color: rgb(89, 45, 126);
+    --fade-out-effect: linear-gradient(to bottom, rgba(100, 10, 20, 0), rgb(200, 200, 200))
+}
+
+/* Define dark theme variables */
+[data-theme="dark"] {
+    --background-color: rgb(14, 10, 20);
+    --text-color: rgb(119, 117, 117);
+    /* --pop-text-color: rgb(27, 150, 207); */
+    --pop-text-color: rgb(238, 191, 39);
+    --fade-out-effect: linear-gradient(to bottom, rgba(14, 10, 20, 0), rgb(14, 10, 20))
+}
+
+/* Apply the variables */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}

@@ -1,0 +1,14 @@
+.top-bar {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: start;
+    gap: 40px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    fill: var(--pop-text-color);
+    opacity: 0.8;
+    cursor: pointer;
+}

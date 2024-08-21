@@ -1,0 +1,13 @@
+.theme-toggle {
+    background: rgba(64, 31, 80, 0.1);
+    font-family: "Moderustic", sans-serif;
+    color: var(--subtitle-text-color);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+}
