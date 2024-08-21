@@ -1,0 +1,186 @@
+.home-page {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 125px;
+}
+
+.home-page-start-content {
+    width: 650px;
+    position: fixed;
+    top: 50px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.connect-bar {
+    margin-top: 200px;
+}
+
+.home-page-scroll-content {
+    box-sizing: border-box;
+    margin-left: 725px;
+    padding-left: 50px;
+}
+
+.home-page-name {
+    font-weight: 600;
+    font-size: 70px;
+    color: var(--pop-text-color);
+}
+
+.home-page-job {
+    font-weight: 300;
+    font-size: 30px;
+    color: var(text-color);
+}
+
+.home-page-progress-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.home-page-progress-bar-background {
+    background-color: rgb(54, 54, 54);
+    height: 300px;
+    width: 2px;
+}
+
+.home-page-progress-bar {
+    background-color: var(--pop-text-color);
+    height: 300px;
+    width: 2px;
+    transform-origin: top;
+}
+
+.home-page-progress-bar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 90px;
+}
+
+.home-page-progress-bar-nav button {
+    font-weight: 400;
+    font-size: 30px;
+    background-color: transparent;
+    color: var(--text-color);
+    border: none;
+    cursor: pointer;
+}
+
+.nav-current {
+    color: var(--pop-text-color) !important;
+    transition: color 0.5s;
+}
+
+
+
+.home-page-aboutme {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.home-page-aboutme p {
+    margin-bottom: 15px;
+}
+
+.home-page-aboutme p span{
+    color: var(--pop-text-color)
+}
+
+.home-page-aboutme-title {
+    font-weight: 500;
+    font-size: 26px;
+    color: var(--pop-text-color);
+    margin-bottom: 10px;
+}
+
+.home-page-career {
+    margin-top: 400px;
+}
+
+.home-page-career-title {
+    font-weight: 500;
+    font-size: 26px;
+    color: var(--pop-text-color);
+    margin-bottom: 10px;
+}
+
+.job-entry-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.home-page-projects {
+    margin-top: 100px;
+}
+
+.home-page-projects-title {
+    font-weight: 500;
+    font-size: 26px;
+    color: var(--pop-text-color);
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1275px) {
+    .home-page {
+        padding: 50px;
+    }
+
+    .home-page-scroll-content {
+        margin-left: 550px;
+    }
+}
+
+@media (max-width: 875px) {
+    .home-page {
+        padding: 20px;
+    }
+
+    .connect-bar {
+        margin-top: 20px;
+    }
+
+    .home-page-start-content {
+        position: static;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .home-page-scroll-content {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .home-page-career {
+        margin-top: 50px;
+    }
+
+    .home-page-projects {
+        margin-top: 50px;
+    }
+
+    
+    .home-page-name {
+        font-weight: 600;
+        font-size: 40px;
+        color: var(--pop-text-color);
+    }
+
+    .home-page-job {
+        font-size: 20px;
+    }
+
+    .home-page-progress-container,
+    .home-page-progress-bar-background,
+    .home-page-progress-bar,
+    .home-page-progress-bar-nav {
+        display: none; /* Hide progress bar elements for mobile devices */
+    } 
+}

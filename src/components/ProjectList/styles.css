@@ -1,0 +1,45 @@
+.project-list {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.project-column {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    min-width: 180px;
+    padding: 6px;
+    border-radius: 12px;
+    box-shadow: rgba(198, 193, 207, 0.2);
+}
+
+.project-item:hover {
+    transform: scale(1.01);
+    transition: transform 0.3s;
+}
+
+.project-video,
+.project-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.project-text {
+    text-align: left;
+}
+
+.project-title {
+    color: var(--pop-text-color);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.project-description {
+    color: rgb(119, 117, 117);
+    font-size: 18px;
+}

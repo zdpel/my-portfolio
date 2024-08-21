@@ -1,15 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 import { HashRouter, Routes, Route } from 'react-router-dom';
+import SideBar from './components/SideBar/SideBar';
 import HomePage from './pages/HomePage/HomePage';
+import JobDetailsPage from './pages/JobDetailsPage/JobDetailsPage';
+import AnimatedRoutes from './components/AnimatedRoutes/AnimatedRoutes';
 
 function App() {
-  console.log(process.env.PUBLIC_URL)
   return (
-    <HashRouter >
-      <Routes>
-        <Route path='/' element={<HomePage/>}/>
-      </Routes>
+    <HashRouter>
+      <div className='main-content'>
+        <AnimatedRoutes/>
+      </div>
     </HashRouter>  
   );
 }
